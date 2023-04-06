@@ -8,5 +8,7 @@ def even_five(N):
             yield i
 N = int(input("Please enter number : "))
 gen = even_five(N)
+print(gen)
+print(next(gen))
 for i in gen:
     print(i, end=" ")

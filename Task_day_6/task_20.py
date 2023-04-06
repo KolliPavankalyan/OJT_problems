@@ -12,7 +12,7 @@ import calendar
 import datetime
 
 def find_first_thursday(year, month):
-    for day in range(1, 32):
+    for day in range(1, 8):
             date = datetime.date(year, month, day)
             if date.weekday() == 3: 
                 return day

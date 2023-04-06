@@ -12,13 +12,6 @@ test2-fail
 
 
 
-# f1 = open("Task_day_8/task_16/File1.txt",'r')
-# key = f1.read()
-# f1.close()
-# f2 = open("Task_day_8/task_16/File2.txt","r")
-# pair = f2.read()
-# print(pair)
-
 
 with open("Task_day_8/task_16/File1.txt",'r') as file1:
     key = (file1.read()).split()
@@ -38,5 +31,3 @@ for i in key:
             dict_A[i]=j[1]
 print(dict_A)
 
-#     dict_A[key[i]]=key_val[i][0]
-# print(dict_A)

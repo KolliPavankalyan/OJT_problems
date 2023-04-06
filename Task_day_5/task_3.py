@@ -15,9 +15,11 @@ print(interleave([1,2,3,5],[6,5,4,8]))
 
 
 
-
-
-
+def interleave(iterable1, iterable2):
+    new_list = []
+    resul = list((zip(iterable1,iterable2)))
+    print(resul)
+interleave([1,2,3,1],[4,5,6,4])
 
 
 

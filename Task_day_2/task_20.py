@@ -4,7 +4,7 @@ names_list = ['Prabhu', Rahul', 'Arunesh, 'Sonali', 'Rakshit']'''
 
 #Approach2
 name_list = ["Prabhu","Rahuu","Arunesh","Sonali","Rakshit"]
-print(sorted(name_list, key=lambda x: x[-1]))
+print(sorted( name_listkey=lambda x: x[-1]))
 
 
 

@@ -9,4 +9,4 @@ def exceptionError(num):
     except ValueError:
         print("please enter positive number")
 
-exceptionError(0)
+exceptionError(8)

@@ -1,7 +1,4 @@
-def generatir():
-    yield 1
-    yield 3
-    yield 4
-l = generatir()
-for i in range(4):
-    print(next(l))
+li = [1,3,1]
+for i in range(len(li)-1):
+    if li[i]==li[i+1]:
+        print(True)

@@ -11,6 +11,7 @@ def check(*args):
             yield i
 
 a = check(f1,f2,f3)
+print(a)
 for i in a:
     print(i)
 
