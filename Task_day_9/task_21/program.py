@@ -1,3 +1,4 @@
+import os
 with open("Task_day_9/task_21/file1.txt","r") as file1:
     f1 = file1.read()
 with open("Task_day_9/task_21/file2.txt","r") as file2:
@@ -11,9 +12,13 @@ def check(*args):
             yield i
 
 a = check(f1,f2,f3)
-print(a)
+
 for i in a:
     print(i)
+# print(os.listdir())
+# for item in os.listdir():
+#     if ".txt" in item:
+#         print()
 
 
 

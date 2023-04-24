@@ -5,8 +5,8 @@ Print the tuple in this format: (start _index, end _index). If no match is found
 -1).
 '''
 
-a = "abcde"
-b = "e"
+a = "aaabbbssjsskaaaa"
+b = "aa"
 for i in range(0,len(a),1):
     if b==a[i:len(b)+i]:
         print((i,len(b)+i-1))

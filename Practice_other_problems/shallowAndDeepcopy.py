@@ -13,7 +13,7 @@ li2[0][0] = 10
 print(li1,li2)
 
 
-#shallowCopy 
+# #shallowCopy 
 import copy
 list1 = [1,2,3,4]
 list2 = list1.copy()

@@ -3,7 +3,7 @@ Ex1: input='abb24ccc8ddbbca1' output='a1b224c3d2b2c1a11'
 Ex2: input = 'abc23' output='a1b1c123' '''
 
 
-input1="aaa5bbbb5fff4"
+input1="aaa5bbbb5fff4f"
 n = len(input1)
 output=''
 count=1
